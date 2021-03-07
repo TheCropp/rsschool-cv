@@ -12,7 +12,7 @@
   * JavaScript
   * C++
 5. Codes
-  `console.log('Hello World!');`
+  * `console.log('Hello World!');`
 6. Courses
   * SkillBox
   * RSSchool
