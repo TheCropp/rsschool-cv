@@ -8,13 +8,14 @@
 
 * E-mail: pioneerpooh@gmail.com
 
-3. 1. Goals 
+3. 
+1. Goals 
 
 * To be a Junior Web Developer
 
 * To finish university
 
-2. Experience
+1. Experience
 
 * Doing labs on programming
 
