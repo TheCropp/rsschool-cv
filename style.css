@@ -7,7 +7,6 @@ header {
 .user-img {
     padding:20px;
     width:200px;
-    height:200px;
 }
 .phone-img, .mail-img {
     padding:10px;
@@ -55,4 +54,27 @@ li {
 .right {
     width:300px;
     padding:20px;
+}
+footer {
+    background-color: rgb(255, 196, 0);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+a {
+    padding:20px;
+    color:black;
+    text-decoration: none;
+}
+img {
+    vertical-align: middle;
+}
+.gh-img {
+    width:30px;
+}
+.rs-img {
+    width:50px;
+}
+a:hover {
+    text-decoration:underline;
 }
