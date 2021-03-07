@@ -56,6 +56,7 @@ li {
     padding:20px;
 }
 footer {
+    position:relative;
     background-color: rgb(255, 196, 0);
     display: flex;
     justify-content: space-between;
@@ -77,4 +78,8 @@ img {
 }
 a:hover {
     text-decoration:underline;
+}
+time {
+    position:absolute;
+    left:50%;
 }
