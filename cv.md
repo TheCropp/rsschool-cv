@@ -1,5 +1,5 @@
 # **Uladzislau Buhlak**
-## System Administrator
+### System Administrator
 ## Contacts:
 - Phone: +1(636)463-1111
 - E-mail: pioneerpooh@gmail.com
@@ -14,13 +14,13 @@ My strengths lie in troubleshooting, documentation, and proactive system monitor
 - Git
 ## Code:
 **Python**: In this kata you will create a function that takes a list of non-negative integers and strings and returns a new list with the strings filtered out.  
-**Example**
+**Example:**
 ```python
 filter_list([1,2,'a','b']) == [1,2]
 filter_list([1,'a','b',0,15]) == [1,0,15]
 filter_list([1,2,'aasf','1','123',123]) == [1,2,123]
 ```  
-**Solution**
+**Solution:**
 ```python
 def filter_list(l):
     arr = []
@@ -31,7 +31,7 @@ def filter_list(l):
 ```
 ## Experience:
 - [Project](https://momentum-thecropp.netlify.app/)
-## Education
+## Education:
 Belarusian State University of Informatics and Radioelectronics (2018-2022)
-## English Level
+## English Level:
 Pre-Advanced
