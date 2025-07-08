@@ -1,3 +1,68 @@
-body{
-    width:80%;
+/* General */
+html {
+    scroll-behavior:smooth;
+   font-family: "Poppins", Arial, sans-serif;
+}
+
+/* Header */
+.cv-header {
+    display: flex;
+    flex-direction: column;
+    background-color: rgb(187, 187, 187);
+}
+.cv-list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    height:100%;
+}
+.contacts-menu::before {
+    background-image: "./reddit-4.svg";
+    width: 32px;
+    position: absolute;
+    height: 32px;
+    background-repeat: no-repeat;
+    background-position: 0 0;
+}
+li {
+    display: flex;
+    padding: 10px;
+}
+.home-page-logo {
+    width:25px;
+}
+a {
+    display: flex;
+    color:#36454F;
+    font-size: 20px;
+}
+/* Body */
+.cv-body{
+    margin:0 auto;
+    max-width: 1280px;
+}
+main {
+    display: grid;
+    grid-template-columns: 380px 1fr;
+}
+div {
+    display: block;
+}
+.left-side {
+    width: 380px;
+}
+.cv-my-picture {
+    width: 100%;
+    object-fit: cover;
+}
+.right-side {
+    width: 900px;
+}
+
+/* Footer */
+.cv-footer {
+    background-color: #36454F;
 }
