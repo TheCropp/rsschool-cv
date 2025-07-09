@@ -3,6 +3,10 @@ html {
     scroll-behavior:smooth;
     font-family: "Poppins", Arial, sans-serif;
 }
+ul {
+    margin: 0;
+    padding: 0;
+}
 
 /* Header */
 .cv-header {
@@ -16,7 +20,6 @@ html {
     justify-content: space-around;
     margin: 0;
     padding: 0;
-    list-style: none;
     height:100%;
 }
 .contacts-menu::before {
@@ -26,7 +29,7 @@ html {
     height: 32px;
     background-repeat: no-repeat;
 }
-li {
+.cv-list>li {
     display: flex;
     padding: 10px;
 }
@@ -47,9 +50,6 @@ main {
     display: grid;
     grid-template-columns: 380px 1fr;
 }
-div {
-    display: block;
-}
 .left-side {
     width: 380px;
 }
@@ -57,18 +57,31 @@ div {
     width: 100%;
     object-fit: cover;
 }
-.right-side {
-    width: 900px;
+.contacts-list {
+    padding:0;
 }
-.section-left-side {
+.contacts-list-item {
+    display: flex;
+    align-items: flex-start;
+    padding:10px;
+}
+.about-me-text {
+    
+}
+.skills-list {
+    display: flex;
+    list-style: none;
+    flex-direction: column;
+}
+.skills-list-item {
+    display: flex;
+    align-items: center;
+    padding: 10px;
+}
 
-}
-.section-right-side {
-    width: 900px;
-}
 /* Footer */
 .cv-footer {
-    background-color: #36454F;
+    background-color: rgb(187, 187, 187);
     display: flex;
     flex-direction: row;
     justify-content: space-around;
