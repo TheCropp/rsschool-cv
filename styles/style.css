@@ -1,7 +1,7 @@
 /* General */
 html {
     scroll-behavior:smooth;
-   font-family: "Poppins", Arial, sans-serif;
+    font-family: "Poppins", Arial, sans-serif;
 }
 
 /* Header */
@@ -20,12 +20,11 @@ html {
     height:100%;
 }
 .contacts-menu::before {
-    background-image: "./reddit-4.svg";
+    background-image: url(./images/reddit-4.svg);
     width: 32px;
     position: absolute;
     height: 32px;
     background-repeat: no-repeat;
-    background-position: 0 0;
 }
 li {
     display: flex;
@@ -34,7 +33,7 @@ li {
 .home-page-logo {
     width:25px;
 }
-a {
+.cv-list>li>a {
     display: flex;
     color:#36454F;
     font-size: 20px;
@@ -61,8 +60,28 @@ div {
 .right-side {
     width: 900px;
 }
+.section-left-side {
 
+}
+.section-right-side {
+    width: 900px;
+}
 /* Footer */
 .cv-footer {
     background-color: #36454F;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    color: white;
+    align-items: center;
+}
+.cv-footer>a {
+    color:white;
+    text-decoration: none;
+}
+.cv-footer>img {
+    width:100px;
 }
