@@ -142,3 +142,14 @@ main {
 .cv-footer>img {
     width:100px;
 }
+
+.my-github {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    text-decoration: none;
+    color: rgb(50, 50, 50);
+}
+.my-github>img {
+    width: 32px;
+}
