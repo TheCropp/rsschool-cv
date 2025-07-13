@@ -127,7 +127,7 @@ main {
 }
 
 /* Footer */
-.footer-section {
+.cv-footer {
     background-color: #e6e6e6;
     display: flex;
     justify-content:space-between;
@@ -136,9 +136,9 @@ main {
     list-style: none;
     align-items: center;
 }
-.footer-section>a {
+.cv-footer>a {
     text-decoration: none;
 }
-.footer-section>img {
+.cv-footer>img {
     width:100px;
 }
