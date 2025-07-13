@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./styles/style.css">
+    <link rel="icon" href="./images/reddit-4.svg">
+    <title>Uladzislau Buhlak's CV</title>
+</head>
+<body class="cv-body">
+    <header>
+        <nav class="cv-header">
+            <ul class="cv-list">
+                <li><a href="#contacts">Contacts</a></li>
+                <li><a href="#about-me">About me</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#code">Code</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#education">Education</a></li>
+                <li><a href="#english-lvl">English Level</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <div class="left-side">
+            <img src="./images/person.jpg" alt="My Picture" class="cv-my-picture"> 
+            <section class="contacts-section" id="contacts">
+                <h2 class="section-title">Contact Information</h2>
+                <ul class="contacts-list text">
+                    <li class="contacts-list-item">
+                        E-Mail:<br>v.buhlak@gmail.com
+                    </li>
+                    <li class="contacts-list-item">
+                        Phone:<br>+1 (636) 463-1111
+                    </li>
+                    <li class="contacts-list-item">
+                        Discord:<br>Vlad Buhlak (@thecropp)
+                    </li>
+                </ul>
+            </section>
+            <section class="education-section">
+                <h2 class="section-title" id="education">Education</h2>
+                <p class="education-text text">
+                    2018 - 2022<br><br>
+                    Bachelor of Computer Science<br><br>
+                    Belarusian State University of Informatics and Radioelectronics<br><br>
+                </p>
+            </section>
+            <section class="english-section">
+                <h2 class="section-title" id="english-lvl">English Level</h2>
+                <p class="english-text text">
+                    B2 (Upper-Intermediate)
+                </p>
+            </section>
+        </div>
+        <div class="right-side">
+            <section class="page-title">
+                <h1>Uladzislau<br>Buhlak</h1>
+                <p>System Administrator</p>
+            </section>
+            <section class="about-me" id="about-me">
+                <h2 class="section-title">About Me</h2>
+                <p class="about-me-text text">
+                    I’m a motivated IT professional with nearly 2 years of hands-on experience in system administration, user support, and hardware troubleshooting. I currently work in a hybrid role that blends technical service with IT systems support, including managing and repairing fitness equipment and maintaining IT infrastructure. My daily work involves Windows Server, Active Directory, Microsoft 365, and networking tools like MikroTik.
+                </p>
+                <p class="about-me-text text">
+                    I’m actively pursuing a career in DevOps and continuously building skills in automation, cloud platforms, and CI/CD practices. I enjoy solving complex problems, improving system reliability, and contributing to smooth operations across teams. Always learning, always improving.
+                </p>
+            </section>
+            <section class="skills" id="skills">
+                <h2 class="section-title">Skills</h2>
+                <ul class="skills-list text">
+                    <li class="skills-list-item">Windows Server Administration</li>
+                    <li class="skills-list-item">Active Directory & Group Policy</li>
+                    <li class="skills-list-item">Microsoft 365 (Exchange, Teams, OneDrive, SharePoint)</li>
+                    <li class="skills-list-item">Network Configuration (MikroTik, DHCP, DNS, VPN)</li>
+                    <li class="skills-list-item">Cloud Services (basic AWS, Azure exposure)</li>
+                    <li class="skills-list-item">Inventory & Asset Management (NetSuite)</li>
+                    <li class="skills-list-item">Remote & Onsite Technical Support</li>
+                </ul>
+            </section>
+            <section class="code" id="code">
+                <h2 class="section-title">Code</h2>
+                <pre>
+                    <code class="code-text" data-language="python">
+    def filter_list(l):
+    arr = []
+    for i in l:
+        if type(i) == int:
+            arr.append(i)
+    return arr
+                    </code>
+                </pre>                
+            </section>
+            <section class="projects" id="projects">
+                <h2 class="section-title">Projects</h2>
+                <div class="project-item">
+                    <a href="https://momentum-thecropp.netlify.app" target="_blank" class="momentum-link">
+                        <img src="./images/Momentum.png" alt="Momentum" class="momentum-image">
+                    </a>
+                    <a href="https://momentum-thecropp.netlify.app" target="_blank" class="momentum-link">Momentum</a>
+                </div>
+            </section>
+        </div>
+    </main>
+    <footer class="cv-footer">
+        <a href="https://github.com/TheCropp" target="_blank" class="my-github">
+            <img src="./images/github-mark.svg" alt="Github Logo">
+            <p>My Github</p>
+        </a>
+        <p>&copy; 2025. All rights reserved</p>
+        <img src="./images/rs_school_js.svg" alt="RS School Logo">
+    </footer>
+</body>
+</html>
